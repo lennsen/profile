@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;1,400&family=Roboto:wght@100;400;500&display=swap');
+
+body {
+  background-color: white;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: 1rem;
+}
+
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif;
+  color: #424242;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  color: #bcbcbc;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  color: #424242;
+}
+
+a:hover {
+  color: #F5B333;
+}
+
+ul, li {
+  list-style: none;
+  display: inline;
+  font-size: 2rem;
+  padding-inline-start: 0;
+}
+
+.preheader {
+  background-color: #F5B333;
+  color: #424242;
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  margin: 0;
+}
+
+.container {
+  margin: 175px 150px;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.info-container {
+  margin-left: 50px;
+}
+
+.social {
+  margin-top: 2rem;
+}
+
+.social li {
+  margin-right: 20px;
+}
+
+@media (max-width: 960px) {
+	.container {
+		flex-direction: column;
+    margin: 5px;
+	}
+
+  .container img {
+    width: 100%;
+    height: auto;
+  }
+
+  .info-container {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
